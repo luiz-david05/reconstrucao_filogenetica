@@ -1,20 +1,30 @@
 ### Aula 1 : Phylogenetic Reconstruction: Part 1- Introduction
 
-This is the first of five videos on phylogenetic reconstruction. Today. We're just going to, in this video, we're just going to introduce the topic.
+This is the first of five videos on phylogenetic reconstruction. Today. We're just going to, in this video, we're just going to 
+introduce the topic.
 
-``` 
-Este é o primeiro de cinco vídeos sobre reconstrução filogenética. Hoje, neste vídeo, vamos apenas introduzir o tema
+```diff 
++Este é o primeiro de cinco vídeos sobre reconstrução filogenética. Hoje, neste vídeo, vamos apenas introduzir o tema
 ```
 
-All right, phylogenetic reconstruction. We have already talked about different ways of doing classification systems, and we have shown that the cladistic or phylogenetic approach really has the strongest biological and philosophical foundation for figuring out evolutionary relationships. So the question then becomes, how do we actually infer phylogenies? There are a very, very small number of speciation events that human beings have actually witnessed.
+All right, phylogenetic reconstruction. We have already talked about different ways of doing classification systems, and 
+we have shown that the cladistic or phylogenetic approach really has the strongest biological and philosophical foundation for 
+figuring out evolutionary relationships. So the question then becomes, how do we actually infer phylogenies? There are a very, very 
+small number of speciation events that human beings have actually witnessed.
 
+```diff
++Certo, reconstrução filogenética. Já discutimos diferentes maneiras de criar sistemas de classificação, e 
++mostramos que a abordagem cladística ou filogenética realmente possui a base biológica e filosófica mais sólida 
++para entender as relações evolutivas. Então, a pergunta que surge é: como, de fato, inferimos filogenias? Existem 
++pouquíssimos eventos de especiação que os seres humanos realmente presenciaram.
 ```
-Certo, reconstrução filogenética. Já discutimos diferentes maneiras de criar sistemas de classificação, e mostramos que a abordagem cladística ou filogenética realmente possui a base biológica e filosófica mais sólida para entender as relações evolutivas. Então, a pergunta que surge é: como, de fato, inferimos filogenias? Existem pouquíssimos eventos de especiação que os seres humanos realmente presenciaram.
-```
 
-The vast majority, millions of them, have not been witnessed. And so how are we going to infer the actual set of evolutionary relationships of species? Today we're going to look at just one of the methods. It's called parsimony.
+The vast majority, millions of them, have not been witnessed. And so how are we going to infer the actual set of 
+evolutionary relationships of species? Today we're going to look at just one of the methods. It's called parsimony.
 
-And there are methods besides parsimony. There are ways of doing things by what we call distance measures, maximum likelihood, and something called bayesian inference. Those last two are statistical approaches, and they're very important, but we don't have time to consider them all.
+And there are methods besides parsimony. There are ways of doing things by what we call distance measures, maximum likelihood, and 
+something called bayesian inference. Those last two are statistical approaches, and they're very important, but we don't have time 
+to consider them all.
 
 So we're going to focus on parsimony because it's more straightforward. All right, so the goal of phylogenetics, if you haven't guessed it already, is to recreate the ancestor descendant relationships among species. So our goal is to build phylogenetic trees, and this is necessarily going to be a branching pattern.
 
