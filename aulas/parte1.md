@@ -84,8 +84,76 @@ this short branch over here. So cladograms tell us branching order, but they don
 
 Phenograms do give us branching order, just like cladograms, but they also tell us how much time or how much change there's been on each branch. It.
 
+---
+
 ### Português
-Este é o primeiro de cinco vídeos sobre reconstrução filogenética. Hoje, vamos apenas introduzir o tema.
+Este é o primeiro de cinco vídeos sobre reconstrução filogenética.
+
+Hoje. Vamos apenas introduzir o tópico.
+
+Tudo bem, reconstrução filogenética. Já falamos sobre diferentes maneiras de fazer sistemas de classificação, e mostramos que a abordagem
+cladística ou filogenética realmente tem a base biológica e filosófica mais sólida para descobrir relações evolutivas. Então a pergunta então
+é, como inferimos filogenias? Existem um número muito, muito pequeno de eventos de especiação que os seres humanos realmente testemunharam.
+
+A grande maioria, milhões deles, não foram testemunhados. E então como vamos inferir o conjunto real de relações evolutivas das espécies? 
+Hoje vamos olhar apenas um dos métodos. Chama-se parcimônia.
+
+E existem métodos além da parcimônia. Existem maneiras de fazer as coisas por meio do que chamamos de medidas de distância, máxima verossimilhança,
+e algo chamado inferência bayesiana. Esses dois últimos são abordagens estatísticas e são muito importantes, mas não temos tempo para considerar 
+todos eles.
+
+Então vamos nos concentrar na parcimônia porque é mais direto. Tudo bem, então o objetivo da filogenética, se você ainda não adivinhou, é 
+recriar as relações de ancestralidade entre as espécies. Então nosso objetivo é construir árvores filogenéticas, e isso necessariamente será 
+um padrão de ramificação.
+
+E isso deve fazer sentido para você com base na discussão que já tivemos sobre especiação, porque geralmente temos uma espécie parental original que 
+se divide em duas ou mais espécies adicionais. E isso vai criar um padrão de ramificação quando representamos isso graficamente. Também falamos sobre o 
+fato de que você pode ter evolução reticulada, especiação híbrida, mas vamos ignorar isso para esta parte da aula.
+
+Tudo bem, primeiro, vamos garantir que entendemos como ler e interpretar árvores filogenéticas. 
+Então as árvores têm diferentes partes. A maioria das árvores são árvores enraizadas.
+
+Então a base da árvore é o que chamamos de raiz aqui. É onde as coisas começam. E então sempre que temos um evento de especiação, temos o que chamamos de nó.
+
+Então aqui, este ramo representa uma espécie ancestral, e então isso se divide em duas novas espécies representadas por esses ramos. Agora, 
+se você falar com alguém em ciência da computação, eles chamarão esses ramos de arestas, mas eles querem dizer a mesma coisa que nós quando os 
+chamamos de ramos. E então aqui nas pontas da árvore, temos o que são chamados de folhas ou táxons ou espécies.
+
+E então esses são os diferentes organismos, organismos para os quais estamos tentando reconstruir as relações. Agora, outra coisa que pode ser 
+complicada sobre a leitura de árvores filogenéticas é que a ordem em que as coisas aparecem nas pontas muitas vezes realmente não significa absolutamente nada. O que realmente importa quando estamos lidando com uma árvore filogenética são as relações das coisas através dos ramos reais da árvore.
+
+E então uma maneira de pensar sobre isso é que cada nó na árvore pode girar. Agora, antes de chegarmos a isso, vamos olhar para outra coisa aqui. 
+Esta dimensão na árvore é o tempo.
+
+Então o tempo está fluindo da raiz até as pontas, onde temos nossas espécies atuais. No entanto, essa dimensão aqui realmente não significa nada. 
+Está apenas lá para que possamos ver as relações das espécies.
+
+Se fizéssemos uma árvore filogenética unidimensional, tivéssemos apenas essa dimensão nela, então todos esses ramos se deitariam uns sobre os outros e 
+não poderíamos ver as relações. Então usamos esse eixo aqui para espalhar as coisas para que possamos ver as relações. Mas isso não nos diz absolutamente nada sobre o quão intimamente relacionadas são as diferentes espécies umas com as outras.
+
+Então, por exemplo, aqui, b não está mais intimamente relacionado a C do que está a D. Na verdade, está igualmente relacionado a C e D. E a razão para isso é que, se você traçar esta árvore, você passa pelos mesmos ramos comuns para chegar a c de b como você faz para ir de b para d.
+
+E isso é algo muito importante para lembrar. Agora, uma maneira de pensar sobre isso é pensar que cada nó na árvore pode girar. Então, por exemplo, aqui, vamos olhar para este nó.
+
+Você pode imaginar esses ramos girando literalmente um ao redor do outro nesse nó. Então, como uma questão prática, o que isso significa é que esta árvore, onde temos a, b, c, d, é exatamente a mesma que esta árvore onde temos ABDC. Tudo o que fizemos foi girar em torno disso 180 graus aqui.
+
+Mas essas duas árvores, topologicamente, são exatamente as mesmas. Não há diferença, mesmo que pareçam diferentes para o seu olho. Da mesma forma, nesta árvore, também poderíamos girar toda a árvore em torno deste nó na raiz aqui.
+
+Então poderíamos girá-lo assim, o que significa que esta árvore, a, b, c, d, é exatamente a mesma que esta árvore aqui. DCBA. Tudo o que fizemos foi pegar aquela árvore original e girá-la 180 graus em torno desse nó.
+
+Então aqui está um exercício interessante para você. Você sempre pode, no próximo slide, essas três árvores retratam exatamente a mesma história evolutiva. Elas são apenas variações uma da outra girando a árvore em torno de diferentes nós que ela tem.
+
+E se você quiser descobrir isso por si mesmo, basta pausar a demonstração aqui. E trabalhe isso por si mesmo. Tudo bem, mais uma coisa sobre a interpretação de árvores filogenéticas.
+
+Às vezes, o comprimento do ramo significa algo em árvores filogenéticas, e às vezes não significa absolutamente nada. Quando não significa absolutamente nada. Fazemos o que chamamos de cladogramas, e é isso que está aqui.
+
+Este é um cladograma. O cladograma nos dá ordens de ramificação, mas os comprimentos dos ramos em si não significam nada. Então, por exemplo, aqui temos essas duas espécies, e sabemos que elas evoluíram após este evento de especiação aqui para essas três espécies.
+
+Mas os comprimentos dos ramos não nos dizem há quanto tempo ocorreram esses eventos, apenas a ordem em que ocorreram. Agora, alternativamente, podemos dizer que os comprimentos dos ramos significam algo. Então é quando temos essas coisas chamadas fenogramas, e é isso que está apresentado aqui.
+
+Neste caso, os comprimentos dos ramos significam algo. Então aqui houve mais mudança neste ramo longo aqui do que houve, por exemplo, neste ramo curto aqui. Então os cladogramas nos dizem a ordem de ramificação, mas não nos dizem o tempo ou quanto mudança houve.
+
+Os fenogramas nos dão a ordem de ramificação, assim como os cladogramas, mas também nos dizem quanto tempo ou quanto mudança houve em cada ramo. Isso.
 
 ---
 
@@ -96,3 +164,40 @@ Este é o primeiro de cinco vídeos sobre reconstrução filogenética. Hoje, va
 - Mostramos que a abordagem cladística ou filogenética possui a base biológica e filosófica mais sólida para entender as relações evolutivas.
 - A pergunta que surge é: como, de fato, inferimos filogenias?
 - Existem pouquíssimos eventos de especiação que os seres humanos realmente testemunharam.
+- A grande maioria, milhões deles, não foram testemunhados.
+- Então, como inferimos o conjunto real de relações evolutivas das espécies?
+- Hoje, vamos olhar para apenas um dos métodos: a parcimônia.
+- Existem métodos além da parcimônia, como medidas de distância, máxima verossimilhança e inferência bayesiana.
+- Esses dois últimos são abordagens estatísticas e são muito importantes, mas não temos tempo para considerá-los todos.
+- Vamos focar na parcimônia porque é mais direta.
+- O objetivo da filogenética é recriar as relações de ancestralidade entre as espécies.
+- Nosso objetivo é construir árvores filogenéticas, que necessariamente serão um padrão de ramificação.
+- Isso deve fazer sentido com base na discussão que já tivemos sobre especiação.
+- Geralmente, temos uma espécie parental original que se divide em duas ou mais espécies adicionais.
+- Isso cria um padrão de ramificação quando representamos isso graficamente.
+- Falamos sobre evolução reticulada e especiação híbrida, mas vamos ignorar isso nesta parte da aula.
+- Primeiro, vamos garantir que entendemos como ler e interpretar árvores filogenéticas.
+- A maioria das árvores são enraizadas.
+- A base da árvore é a raiz, onde as coisas começam.
+- Sempre que temos um evento de especiação, temos um nó.
+- Esse nó representa uma espécie ancestral que se divide em duas novas espécies.
+- Se você falar com alguém em ciência da computação, eles chamarão esses ramos de arestas.
+- Nas pontas da árvore, temos folhas, táxons ou espécies.
+- São os diferentes organismos para os quais estamos tentando reconstruir as relações.
+- A ordem em que as coisas aparecem nas pontas muitas vezes não significa absolutamente nada.
+- O que importa são as relações das coisas através dos ramos reais da árvore.
+- Cada nó na árvore pode girar.
+- A dimensão na árvore é o tempo.
+- O tempo flui da raiz até as pontas, onde temos nossas espécies atuais.
+- A dimensão aqui não significa nada.
+- Está apenas lá para que possamos ver as relações das espécies.
+- Se fizéssemos uma árvore filogenética unidimensional, todos os ramos se deitariam uns sobre os outros.
+- Usamos esse eixo para espalhar as coisas para que possamos ver as relações.
+- Mas isso não nos diz nada sobre o quão intimamente relacionadas são as diferentes espécies.
+- Cada nó na árvore pode girar.
+- As árvores a, b, c, d e ABDC são exatamente as mesmas.
+- Mesmo que pareçam diferentes, topologicamente, são exatamente as mesmas.
+- Os cladogramas nos dão ordens de ramificação, mas os comprimentos dos ramos não significam nada.
+- Os fenogramas nos dão a ordem de ramificação e nos dizem quanto tempo ou quanto mudança houve em cada ramo.
+
+---
